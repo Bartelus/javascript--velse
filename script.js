@@ -32,33 +32,33 @@ console.log(william.name)
 
 
 
-let gameRunning = true
-while (gameRunning)
+// let gameRunning = false
+// while (gameRunning)
 
-{
+
 // render game state
 // read user input
 // update game state with user input
 // make AI move 
-}
+
 
 
 // game loop
 
-let repetitionCount = 0
+// let repetitionCount = 0
 
-while (repetitioncount < 10)
-{
-    console.log(repetitioncount)
-    repetitionCount = repetitionCount + 1
-}
+// while (repetitioncount < 10)
+// {
+ //   console.log(repetitioncount)
+ //   repetitionCount = repetitionCount + 1
+// }
 
 // hp redution
 
 while (william.hp > 0)
 
 {
-let random = Math.random () * 10
+let random = Math.random ()
 if (random < 0.5) {
     console.log("player taking damage")
     william.hp = william.hp - 1
@@ -101,4 +101,4 @@ else
 
 
 
-console.log(hp)
+console.log(william.hp)
